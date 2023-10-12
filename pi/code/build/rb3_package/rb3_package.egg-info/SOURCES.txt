@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+rb3_package/__init__.py
+rb3_package/rb3_node.py
+rb3_package.egg-info/PKG-INFO
+rb3_package.egg-info/SOURCES.txt
+rb3_package.egg-info/dependency_links.txt
+rb3_package.egg-info/entry_points.txt
+rb3_package.egg-info/requires.txt
+rb3_package.egg-info/top_level.txt
+rb3_package.egg-info/zip-safe
+resource/rb3_package

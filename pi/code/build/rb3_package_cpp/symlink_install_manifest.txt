@@ -1,0 +1,16 @@
+/home/pi/code/install/rb3_package_cpp/lib/rb3_package_cpp/rb3_node_cpp
+/home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/package_run_dependencies/rb3_package_cpp
+/home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/parent_prefix_path/rb3_package_cpp
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/ament_prefix_path.sh
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/ament_prefix_path.dsv
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/path.sh
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/path.dsv
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.bash
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.sh
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.zsh
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.dsv
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/package.dsv
+/home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/packages/rb3_package_cpp
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/cmake/rb3_package_cppConfig.cmake
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/cmake/rb3_package_cppConfig-version.cmake
+/home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/package.xml

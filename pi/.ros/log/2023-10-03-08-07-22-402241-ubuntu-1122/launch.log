@@ -1,0 +1,9 @@
+1696320442.4112859 [INFO] [launch]: All log files can be found below /home/pi/.ros/log/2023-10-03-08-07-22-402241-ubuntu-1122
+1696320442.4124758 [INFO] [launch]: Default logging verbosity is set to INFO
+1696320444.3810873 [INFO] [robot_state_publisher-1]: process started with pid [1123]
+1696320444.3838277 [INFO] [ld08_driver-2]: process started with pid [1125]
+1696320444.3857424 [INFO] [turtlebot3_ros-3]: process started with pid [1127]
+1696320446.5666335 [INFO] [ld08_driver-2]: process has finished cleanly [pid 1125]
+1696321684.1816089 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1696321684.3487172 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1123]
+1696321684.3668962 [INFO] [turtlebot3_ros-3]: process has finished cleanly [pid 1127]

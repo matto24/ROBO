@@ -1,0 +1,9 @@
+source;share/rb3_package/hook/pythonpath.ps1
+source;share/rb3_package/hook/pythonpath.dsv
+source;share/rb3_package/hook/pythonpath.sh
+source;share/rb3_package/hook/ament_prefix_path.ps1
+source;share/rb3_package/hook/ament_prefix_path.dsv
+source;share/rb3_package/hook/ament_prefix_path.sh
+source;../../build/rb3_package/share/rb3_package/hook/pythonpath_develop.ps1
+source;../../build/rb3_package/share/rb3_package/hook/pythonpath_develop.dsv
+source;../../build/rb3_package/share/rb3_package/hook/pythonpath_develop.sh

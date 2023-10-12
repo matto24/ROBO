@@ -1,0 +1,41 @@
+[0.346s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3
+[3.987s] -- The C compiler identification is GNU 11.4.0
+[4.653s] -- The CXX compiler identification is GNU 11.4.0
+[4.761s] -- Detecting C compiler ABI info
+[5.486s] -- Detecting C compiler ABI info - done
+[5.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.549s] -- Detecting C compile features
+[5.556s] -- Detecting C compile features - done
+[5.586s] -- Detecting CXX compiler ABI info
+[6.342s] -- Detecting CXX compiler ABI info - done
+[6.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.405s] -- Detecting CXX compile features
+[6.408s] -- Detecting CXX compile features - done
+[6.542s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.780s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.511s] -- Configuring done
+[12.544s] -- Generating done
+[12.553s] -- Build files have been written to: /home/pi/turtlebot3_ws/build/turtlebot3
+[12.587s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/turtlebot3_ws/src/turtlebot3/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/turtlebot3
+[12.923s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3 -- -j4 -l4
+[13.192s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/turtlebot3 -- -j4 -l4
+[13.401s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3
+[13.450s] -- Install configuration: ""
+[13.453s] -- Execute custom install script
+[13.456s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+[13.515s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+[13.577s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+[13.639s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+[13.699s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+[13.759s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv
+[13.820s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+[13.880s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+[13.941s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+[14.002s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv
+[14.062s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.dsv
+[14.124s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+[14.185s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+[14.245s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+[14.306s] -- Symlinking: /home/pi/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.xml
+[14.395s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/turtlebot3

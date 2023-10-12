@@ -1,0 +1,31 @@
+[10.137s] Invoking command in '/home/pi/turtlebot3_ws/build/turtlebot3_example': PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_example/build --no-deps install_data
+[12.672s] running develop
+[13.926s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.931s]   warnings.warn(
+[13.938s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.939s]   warnings.warn(
+[15.659s] running egg_info
+[15.660s] creating turtlebot3_example.egg-info
+[15.661s] writing turtlebot3_example.egg-info/PKG-INFO
+[15.664s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[15.665s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[15.667s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[15.668s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[15.670s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[15.688s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[15.695s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[15.706s] running build_ext
+[15.708s] Creating /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[15.716s] Installing turtlebot3_obstacle_detection script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[15.717s] Installing turtlebot3_patrol_client script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[15.719s] Installing turtlebot3_patrol_server script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[15.720s] Installing turtlebot3_position_control script to /home/pi/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[15.723s] 
+[15.724s] Installed /home/pi/turtlebot3_ws/build/turtlebot3_example
+[15.726s] running install_data
+[15.727s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[15.728s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[15.730s] creating /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[15.731s] copying resource/turtlebot3_example -> /home/pi/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[15.731s] copying package.xml -> /home/pi/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[16.061s] Invoked command in '/home/pi/turtlebot3_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/pi/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/turtlebot3_ws/build/turtlebot3_example/build --no-deps install_data

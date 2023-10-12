@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rb3_package.egg-info
+writing rb3_package.egg-info/PKG-INFO
+writing dependency_links to rb3_package.egg-info/dependency_links.txt
+writing entry points to rb3_package.egg-info/entry_points.txt
+writing requirements to rb3_package.egg-info/requires.txt
+writing top-level names to rb3_package.egg-info/top_level.txt
+writing manifest file 'rb3_package.egg-info/SOURCES.txt'
+reading manifest file 'rb3_package.egg-info/SOURCES.txt'
+writing manifest file 'rb3_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/code/install/rb3_package/lib/python3.10/site-packages/rb3-package.egg-link (link to .)
+Installing rb3_node script to /home/pi/code/install/rb3_package/lib/rb3_package
+
+Installed /home/pi/code/build/rb3_package
+running install_data
+creating /home/pi/code/install/rb3_package/share/ament_index
+creating /home/pi/code/install/rb3_package/share/ament_index/resource_index
+creating /home/pi/code/install/rb3_package/share/ament_index/resource_index/packages
+copying resource/rb3_package -> /home/pi/code/install/rb3_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/code/install/rb3_package/share/rb3_package

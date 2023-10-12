@@ -1,0 +1,75 @@
+[0.087s] Invoking command in '/home/pi/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/ld08_driver
+[0.606s] -- The C compiler identification is GNU 11.4.0
+[1.126s] -- The CXX compiler identification is GNU 11.4.0
+[1.184s] -- Detecting C compiler ABI info
+[1.850s] -- Detecting C compiler ABI info - done
+[1.908s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.910s] -- Detecting C compile features
+[1.913s] -- Detecting C compile features - done
+[1.936s] -- Detecting CXX compiler ABI info
+[2.714s] -- Detecting CXX compiler ABI info - done
+[2.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.777s] -- Detecting CXX compile features
+[2.781s] -- Detecting CXX compile features - done
+[2.834s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.663s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.906s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[6.802s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.918s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.079s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.266s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.330s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.756s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.095s] -- Looking for pthread.h
+[14.746s] -- Looking for pthread.h - found
+[14.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.416s] -- Found Threads: TRUE  
+[17.102s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[18.532s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[18.613s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.331s] -- Configuring done
+[19.454s] -- Generating done
+[19.469s] -- Build files have been written to: /home/pi/turtlebot3_ws/build/ld08_driver
+[19.545s] Invoked command in '/home/pi/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/turtlebot3_ws/install/ld08_driver
+[19.568s] Invoking command in '/home/pi/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[19.982s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[19.985s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[19.988s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[19.995s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[28.548s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[266.494s] [01m[K/home/pi/turtlebot3_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[268.052s] [01m[K/home/pi/turtlebot3_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[268.053s]    30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+[268.054s]       |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[842.684s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[846.442s] [100%] Built target ld08_driver
+[847.380s] Invoked command in '/home/pi/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/turtlebot3_ws/build/ld08_driver -- -j4 -l4
+[848.253s] Invoking command in '/home/pi/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/ld08_driver
+[848.323s] -- Install configuration: ""
+[848.336s] -- Execute custom install script
+[848.371s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[848.439s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+[848.507s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[848.570s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[848.638s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[848.704s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[848.766s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+[848.827s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[848.888s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+[848.949s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+[849.010s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[849.071s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[849.132s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+[849.195s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[849.259s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[849.321s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[849.384s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[849.630s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[849.692s] -- Symlinking: /home/pi/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml
+[849.956s] Invoked command in '/home/pi/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/turtlebot3_ws/build/ld08_driver

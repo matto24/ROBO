@@ -1,0 +1,6 @@
+1696325002.4083169 [INFO] [launch]: All log files can be found below /home/pi/.ros/log/2023-10-03-09-23-22-399429-ubuntu-1120
+1696325002.4095750 [INFO] [launch]: Default logging verbosity is set to INFO
+1696325004.4009860 [INFO] [robot_state_publisher-1]: process started with pid [1121]
+1696325004.4027183 [INFO] [ld08_driver-2]: process started with pid [1123]
+1696325004.4041214 [INFO] [turtlebot3_ros-3]: process started with pid [1125]
+1696325006.6044257 [INFO] [ld08_driver-2]: process has finished cleanly [pid 1123]

@@ -1,0 +1,62 @@
+[2.597s] Invoking command in '/home/pi/code/build/rb3_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/code/src/rb3_package_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/code/install/rb3_package_cpp
+[3.125s] -- The C compiler identification is GNU 11.4.0
+[4.478s] -- The CXX compiler identification is GNU 11.4.0
+[4.535s] -- Detecting C compiler ABI info
+[6.129s] -- Detecting C compiler ABI info - done
+[6.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.188s] -- Detecting C compile features
+[6.191s] -- Detecting C compile features - done
+[6.217s] -- Detecting CXX compiler ABI info
+[6.987s] -- Detecting CXX compiler ABI info - done
+[7.050s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.052s] -- Detecting CXX compile features
+[7.056s] -- Detecting CXX compile features - done
+[7.114s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.573s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.788s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[11.515s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.616s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.748s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.161s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.218s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.400s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.791s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.656s] -- Looking for pthread.h
+[16.374s] -- Looking for pthread.h - found
+[16.377s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.079s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.087s] -- Found Threads: TRUE  
+[18.576s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[20.156s] -- Configuring done
+[20.269s] -- Generating done
+[20.283s] -- Build files have been written to: /home/pi/code/build/rb3_package_cpp
+[20.356s] Invoked command in '/home/pi/code/build/rb3_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/code/src/rb3_package_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/code/install/rb3_package_cpp
+[20.373s] Invoking command in '/home/pi/code/build/rb3_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/code/build/rb3_package_cpp -- -j4 -l4
+[20.736s] [ 50%] [32mBuilding CXX object CMakeFiles/rb3_node_cpp.dir/src/rb3_node_cpp.cpp.o[0m
+[80.871s] [100%] [32m[1mLinking CXX executable rb3_node_cpp[0m
+[83.133s] [100%] Built target rb3_node_cpp
+[83.427s] Invoked command in '/home/pi/code/build/rb3_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/code/build/rb3_package_cpp -- -j4 -l4
+[83.732s] Invoking command in '/home/pi/code/build/rb3_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/code/build/rb3_package_cpp
+[83.779s] -- Install configuration: ""
+[83.784s] -- Execute custom install script
+[83.788s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/lib/rb3_package_cpp/rb3_node_cpp
+[83.845s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/package_run_dependencies/rb3_package_cpp
+[83.904s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/parent_prefix_path/rb3_package_cpp
+[83.961s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/ament_prefix_path.sh
+[85.292s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/ament_prefix_path.dsv
+[85.350s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/path.sh
+[85.407s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/environment/path.dsv
+[85.464s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.bash
+[85.520s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.sh
+[85.576s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.zsh
+[85.633s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/local_setup.dsv
+[85.688s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/package.dsv
+[85.745s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/ament_index/resource_index/packages/rb3_package_cpp
+[85.803s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/cmake/rb3_package_cppConfig.cmake
+[85.860s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/cmake/rb3_package_cppConfig-version.cmake
+[85.916s] -- Symlinking: /home/pi/code/install/rb3_package_cpp/share/rb3_package_cpp/package.xml
+[85.993s] Invoked command in '/home/pi/code/build/rb3_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pi/code/build/rb3_package_cpp

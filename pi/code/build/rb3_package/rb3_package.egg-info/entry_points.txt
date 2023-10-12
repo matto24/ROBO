@@ -1,0 +1,3 @@
+[console_scripts]
+rb3_node = rb3_package.rb3_node:main
+
